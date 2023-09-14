@@ -1,0 +1,71 @@
+h2 {
+    margin-left: 8px;
+}
+
+select {
+    border: 3px solid black;
+    font-family: sans-serif;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+input {
+    border: 3px solid black;
+    font-family: sans-serif;
+    margin-right: 8px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+#output {
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+
+button {
+    margin: 10px 0px 5px 5px;
+    border: 3px solid black;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(253,254,255,255);;
+    background-color: deepskyblue;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 10%,
+                                      rgba(0, 0, 0, 0));
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+svg {
+    padding: 20px 15px;
+}
+
+#link {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+#logout {
+    float: right;
+}
